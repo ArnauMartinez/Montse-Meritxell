@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Select the filters for the map</title>
+</head>
+<body>
+
+<form method ="POST", action = "">
+<label for="Campus">Grups de facultats: </label>
+<br><br>
+<select multiple id="Campus" name="Campus">         
+    <option value="Campus Nord">Campus Nord</option>       
+    <option value="Campus Sud">Campus Sud</option>       
+    <option value="Altres Campus">Resta</option>
+    <option value="Tot">Tots</option>
+</select>
+<input type="submit" value="Submit">
+<br><br>
+</form>
+
+<form method = "POST", action = "">
+<label for="Transport">Transport:</label>
+<br><br>
+<select multiple id="Transport" name="Transport">         
+    <option value="Undergroud">Underground</option>       
+    <option value="Bus">Bus</option>       
+    <option value="Renfe">Renfe</option>
+    <option value="Walking">Walking</option>
+    <option value="Combustion">Combustion vehicle </option>
+    <option value="All">All</option>
+</select>
+<input type="submit" value="Submit">
+<br><br>
+</form>
+
+<form method ="POST", action = "">
+    <label for="Provincies">Províncies: </label>
+    <br><br>
+    <select multiple id="Provincies" name="Provincies">         
+        <option value="0">Barcelona</option>       
+        <option value="1">Girona</option>
+        <option value="2">Lleida</option>      
+        <option value="3">Tarragona</option>
+    </select>
+    <input type="submit" value="Submit & GO">
+    <br><br>
+    </form>
+    
+<p>Hold down the Ctrl (windows) or Command (Mac) button to select multiple options.</p>
+</body>
+</html>
